@@ -68,7 +68,7 @@ function sendRequest(formData) {
     let visitSiteElement = document.createElement("a");
     visitSiteElement.setAttribute("href", formData.siteUrl);
     visitSiteElement.setAttribute("target", "_blank");
-    visitSiteElement.textContent = formData.siteUrlIn;
+    visitSiteElement.textContent = formData.siteUrl;
 
     newBookmark.appendChild(siteNameElement);
     newBookmark.appendChild(visitSiteElement);
